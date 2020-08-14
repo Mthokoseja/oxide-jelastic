@@ -1,6 +1,6 @@
 # Cloudlet.Cloud
 
-Welcome to the Cloudlet.cloud code repo.
+Welcome to the Cloudlet.Cloud code repo.
 
 Here you can find useful pieces of code that can potentially assist you in your cloud operations.
 
