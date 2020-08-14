@@ -15,7 +15,7 @@ rest_getenv_url = "{}/environment/control/rest/getenvs?session={}&appid={}".form
 
 payload = {}
 headers = {
-    'Cookie': 'jrouter=b916bf4d3b39e6029fd403f21566f3f1'
+
 }
 
 # Handles response and convert to a parse-able json object
