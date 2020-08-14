@@ -24,7 +24,7 @@ import json  # Required for Jelastic restful responses
 
 # VARIABLES
 jelastic_region_url = 'https://app.demo.jelastic.com/1.0'
-jelastic_region_api_token = '2ddce07e785d4e9fb3e395cce53f0dac248e16d3'
+jelastic_region_api_token = 'your_api_token_here'
 jelastic_appid = '1dd8d191d38fff45e62564fcf67fdcd6'
 
 # REST - QUERIES
