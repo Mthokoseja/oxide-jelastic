@@ -15,7 +15,6 @@ rest_getenv_url = "{}/environment/control/rest/getenvs?session={}&appid={}".form
 
 payload = {}
 headers = {
-    'Authorization': 'Bearer {}'.format(jelastic_region_api_token),
     'Cookie': 'jrouter=b916bf4d3b39e6029fd403f21566f3f1'
 }
 
