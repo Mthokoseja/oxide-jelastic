@@ -3,11 +3,11 @@ import json  # Required for Jelastic restful responses
 
 # VARIABLES
 jelastic_region_url = 'https://app.demo.jelastic.com/1.0'
-jelastic_region_api_token = 'your_api_token_you_made_when_logged_in'
+jelastic_region_api_token = 'api_token'
 jelastic_appid = '1dd8d191d38fff45e62564fcf67fdcd6'
 
 # REST - QUERIES
-rest_getenv_url = ("{}/environment/control/rest/getenvs?session={}&appid={}").format(
+rest_getenv_url = "{}/environment/control/rest/getenvs?session={}&appid={}".format(
     jelastic_region_url,
     jelastic_region_api_token,
     jelastic_appid
@@ -15,7 +15,7 @@ rest_getenv_url = ("{}/environment/control/rest/getenvs?session={}&appid={}").fo
 
 payload = {}
 headers = {
-    'Authorization': 'Bearer 2ddce07e785d4e9fb3e395cce53f0dac248e16d3',
+    'Authorization': 'Bearer {}'.format(jelastic_region_api_token),
     'Cookie': 'jrouter=b916bf4d3b39e6029fd403f21566f3f1'
 }
 
