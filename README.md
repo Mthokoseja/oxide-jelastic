@@ -1,4 +1,4 @@
-# Cloudlet.cloud
+# Cloudlet.Cloud
 
 Welcome to the Cloudlet.cloud code repo.
 
